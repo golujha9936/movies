@@ -76,8 +76,6 @@
 }
 /* Download */
 .download {
-  max-width: 800px;
-  width: 1005;
   margin: auto;
   display: grid;
   justify-content: center;
@@ -106,10 +104,4 @@
 }
 .download-links a:hover {
   background: var(--hover-color);
-}
-@media (max-width: 888px) {
-  .play-container container {
-    min-height: 440px;
-    margin-top: 4rem !important;
-  }
 }

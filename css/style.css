@@ -432,7 +432,7 @@ header {
 }
 @media (max-width: 1060px) {
   .container {
-    margin: 0  auto;
+    margin: 0 auto;
     width: 95%;
   }
 }
@@ -443,8 +443,12 @@ header {
   .movies-content {
     grid-template-columns: repeat(auto-fit, minmax(214px, 1fr));
   }
+  .play-movie {
+    bottom: 18rem;
+    right: 4rem;
+  }
 }
-@media (min-width: 640px) {
+@media (max-width: 888px) {
   .nav {
     padding: 14px 0;
   }
@@ -464,5 +468,13 @@ header {
   .movie-title {
     font-size: 1rem;
     padding-right: 30px;
+  }
+  .play-container {
+    min-height: 440px;
+    margin-top: 4rem !important;
+  }
+  .play-movie {
+    bottom: 14rem;
+    right: 4rem;
   }
 }
