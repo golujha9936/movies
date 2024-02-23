@@ -436,12 +436,12 @@ header {
     width: 95%;
   }
 }
-@media (max-width: 991px) {
+@media (max-width: 1100px) {
   .movie-box {
     height: 340px;
   }
   .movies-content {
-    grid-template-columns: repeat(auto-fit, minmax(214px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(340px, 4fr));
   }
   .play-movie {
     bottom: 18rem;
