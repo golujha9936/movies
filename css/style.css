@@ -436,16 +436,13 @@ header {
     width: 95%;
   }
 }
-@media (max-width: 1100px) {
+@media (max-width: 991px) {
   .movie-box {
     height: 340px;
   }
   .movies-content {
-    grid-template-columns: repeat(auto-fit, minmax(340px, 4fr));
-  }
-  .play-movie {
-    bottom: 18rem;
-    right: 4rem;
+    grid-template-columns: repeat(auto-fit, minmax(214px, 1fr));
+    gap: 1.5rem;
   }
 }
 @media (max-width: 888px) {
@@ -470,11 +467,7 @@ header {
     padding-right: 30px;
   }
   .play-container {
-    min-height: 440px;
-    margin-top: 4rem !important;
-  }
-  .play-movie {
-    bottom: 14rem;
-    right: 4rem;
+    min-height: 522px;
+    margin-top: 4cap !important;
   }
 }
