@@ -44,7 +44,7 @@
 }
 /* About Movie */
 .about-movie {
-  margin-top: 2rem;
+  margin-top: 2rem !important;
 }
 .about-movie h2 {
   font-size: 1.4rem;
@@ -104,4 +104,53 @@
 }
 .download-links a:hover {
   background: var(--hover-color);
+}
+@media (max-width: 888px) {
+  .play-container {
+    min-height: 440px;
+    margin-top: 4rem !important;
+  }
+  .play-movie {
+    bottom: 14rem;
+    right: 4rem;
+  }
+  .cast {
+    justify-content: center;
+  }
+}
+/* For Medium Devices / Tablet Etc */
+@media (max-width: 768px) {
+  .play-movie {
+    bottom: 10rem;
+    right: 2rem;
+  }
+}
+@media (max-width: 888px) {
+  .play-movie {
+    bottom: 4rem;
+  }
+  .video-box {
+    width: 94%;
+  }
+  .close-video {
+    top: 1px;
+    right: 10px;
+  }
+  .cast-heading {
+    font-size: 1.1rem;
+  }
+  .cast-title {
+    font-size: 0.9rem;
+  }
+}
+@media (max-width: 420px) {
+  .play-container {
+    margin-top: 7rem !important;
+  }
+}
+/* For Small Devices */
+@media (max-width: 370px) {
+  .download-links {
+    grid-template-columns: 1fr;
+  }
 }
